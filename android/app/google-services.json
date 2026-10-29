@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "662225690742",
+    "project_id": "ironpath-workout-simulator",
+    "storage_bucket": "ironpath-workout-simulator.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662225690742:android:924ec3cde45c336a59bf57",
+        "android_client_info": {
+          "package_name": "com.it304mad.food_delivery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD__7BnC5unzAMzjCLseHhPa400Z-ZEcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

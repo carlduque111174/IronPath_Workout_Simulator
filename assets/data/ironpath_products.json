@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "IronPath Strength Kit",
+      "category": "Equipment",
+      "price": 1499.00,
+      "rating": 4.8,
+      "stock": 24,
+      "description": "A complete home workout set featuring adjustable dumbbells, resistance bands, and a compact bench.",
+      "imageUrl": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Athlete Recovery Bundle",
+      "category": "Recovery",
+      "price": 899.00,
+      "rating": 4.7,
+      "stock": 16,
+      "description": "Recovery tools for muscle relief, stretching, and post-workout refreshment after intensive training.",
+      "imageUrl": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "id": 3,
+      "name": "Elite Personal Coaching",
+      "category": "Service",
+      "price": 2499.00,
+      "rating": 5.0,
+      "stock": 9,
+      "description": "One-on-one coaching plan with nutrition guidance, weekly check-ins, and custom training sessions.",
+      "imageUrl": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "id": 4,
+      "name": "Body Sculpt Program",
+      "category": "Program",
+      "price": 1199.00,
+      "rating": 4.9,
+      "stock": 32,
+      "description": "A monthly fat-loss and strength transformation plan designed for busy professionals and beginners.",
+      "imageUrl": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&w=900&q=80"
+    }
+  ]
+}

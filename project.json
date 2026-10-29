@@ -1,0 +1,150 @@
+{
+  "project": {
+    "name": "IronPath Workout Simulator",
+    "packageName": "ironpath_workout_simulator",
+    "description": "Custom workout planner with muscle-focus and equipment selection.",
+    "type": "Flutter application",
+    "version": "1.0.0+1",
+    "sdk": "^3.12.2",
+    "publishTo": "none",
+    "uiTheme": {
+      "mode": "dark",
+      "primaryColor": "#0F172A",
+      "accentColor": "#F97316",
+      "chipSelectedColor": "#F59E0B",
+      "bgColor": "#111827",
+      "cardColor": "#1F2937",
+      "textColor": "#F9FAFB"
+    },
+    "customization": {
+      "title": "ALL CUSTOMIZED",
+      "subtitle": "Focus Area & Equipment Options",
+      "layout": "two-column selection grid",
+      "focusAreas": [
+        {
+          "id": "arms",
+          "label": "Arms",
+          "icon": "muscle_arm",
+          "selected": false
+        },
+        {
+          "id": "chest",
+          "label": "Chest",
+          "icon": "muscle_chest",
+          "selected": true
+        },
+        {
+          "id": "back",
+          "label": "Back",
+          "icon": "muscle_back",
+          "selected": false
+        },
+        {
+          "id": "abs",
+          "label": "Abs",
+          "icon": "muscle_abs",
+          "selected": false
+        },
+        {
+          "id": "leg",
+          "label": "Leg",
+          "icon": "muscle_leg",
+          "selected": false
+        },
+        {
+          "id": "lower_body",
+          "label": "Lower Body",
+          "icon": "muscle_lower_body",
+          "selected": false
+        }
+      ],
+      "equipment": [
+        {
+          "id": "barbell",
+          "label": "Barbell",
+          "icon": "equipment_barbell",
+          "selected": true
+        },
+        {
+          "id": "dumbbell",
+          "label": "Dumbbell",
+          "icon": "equipment_dumbbell",
+          "selected": false
+        },
+        {
+          "id": "bench",
+          "label": "Bench",
+          "icon": "equipment_bench",
+          "selected": false
+        },
+        {
+          "id": "kettlebell",
+          "label": "Kettlebell",
+          "icon": "equipment_kettlebell",
+          "selected": false
+        },
+        {
+          "id": "yoga_mat",
+          "label": "Yoga Mat",
+          "icon": "equipment_yoga_mat",
+          "selected": false
+        },
+        {
+          "id": "machine",
+          "label": "Machine",
+          "icon": "equipment_machine",
+          "selected": false
+        }
+      ]
+    },
+    "features": [
+      "Workout simulator",
+      "Equipment inventory",
+      "Performance tracking",
+      "Login and authentication",
+      "Firebase integration",
+      "Custom workout selection"
+    ],
+    "dependencies": {
+      "flutter": "sdk:flutter",
+      "cupertino_icons": "^1.0.8",
+      "flutter_bloc": "^8.1.2",
+      "bloc": "^8.1.0",
+      "get_it": "^7.2.0",
+      "google_fonts": "^8.2.1",
+      "firebase_core": "^4.13.0",
+      "firebase_auth": "^6.5.7"
+    },
+    "devDependencies": {
+      "flutter_test": "sdk:flutter",
+      "flutter_launcher_icons": "^0.14.4",
+      "flutter_lints": "^6.0.0"
+    },
+    "assets": [
+      "assets/images/logo.png",
+      "assets/vectors/logo.png"
+    ],
+    "firebase": {
+      "enabled": true,
+      "services": [
+        "firebase_core",
+        "firebase_auth"
+      ]
+    },
+    "appIcon": {
+      "source": "assets/images/ChatGPT Image Sep 15, 2026, 04_38_17 PM.png",
+      "androidAdaptiveIconBackground": "#1C1C1E",
+      "androidAdaptiveIconForeground": "assets/images/ChatGPT Image Sep 15, 2026, 04_38_17 PM.png"
+    },
+    "folders": {
+      "lib": "Flutter app source code",
+      "assets": "Images, vectors, and static resources",
+      "android": "Android project files",
+      "ios": "iOS project files",
+      "linux": "Linux desktop support",
+      "macos": "macOS desktop support",
+      "windows": "Windows desktop support",
+      "test": "Widget and unit tests"
+    }
+  }
+}
